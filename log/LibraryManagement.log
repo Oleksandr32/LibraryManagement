@@ -1,0 +1,160 @@
+2018-01-05 12:52:42,660 main INFO  librarymanagement.LibraryManagement (LibraryManagement.java:55) - Application Exception
+com.project.librarymanagement.exception.ApplicationException: You entered the command incorrectly or unknown command.
+	at com.project.librarymanagement.utils.Converter.convertCommandToMap(Converter.java:28) ~[classes/:?]
+	at com.project.librarymanagement.utils.ConsoleIn.readCommand(ConsoleIn.java:43) ~[classes/:?]
+	at com.project.librarymanagement.LibraryManagement.run(LibraryManagement.java:50) [classes/:?]
+	at com.project.librarymanagement.LibraryManagement.main(LibraryManagement.java:41) [classes/:?]
+
+2018-01-05 12:52:47,006 main INFO  librarymanagement.LibraryManagement (LibraryManagement.java:55) - Application Exception
+com.project.librarymanagement.exception.ApplicationException: You entered the command incorrectly or unknown command.
+Maybe you wanted to enter "add" command.
+Syntax: add {author} {"book_name"}
+	at com.project.librarymanagement.utils.CommandParser.parseAddCommand(CommandParser.java:92) ~[classes/:?]
+	at com.project.librarymanagement.utils.CommandParser.parseCommand(CommandParser.java:53) ~[classes/:?]
+	at com.project.librarymanagement.utils.Converter.convertCommandToMap(Converter.java:30) ~[classes/:?]
+	at com.project.librarymanagement.utils.ConsoleIn.readCommand(ConsoleIn.java:43) ~[classes/:?]
+	at com.project.librarymanagement.LibraryManagement.run(LibraryManagement.java:50) [classes/:?]
+	at com.project.librarymanagement.LibraryManagement.main(LibraryManagement.java:41) [classes/:?]
+2018-01-05 13:30:37,647 main INFO  librarymanagement.LibraryManagement (LibraryManagement.java:55) - Application Exception
+com.project.librarymanagement.exception.ApplicationException: You entered the command incorrectly or unknown command.
+	at com.project.librarymanagement.utils.Converter.convertCommandToMap(Converter.java:28) ~[classes/:?]
+	at com.project.librarymanagement.utils.ConsoleIn.readCommand(ConsoleIn.java:46) ~[classes/:?]
+	at com.project.librarymanagement.LibraryManagement.run(LibraryManagement.java:50) [classes/:?]
+	at com.project.librarymanagement.LibraryManagement.main(LibraryManagement.java:41) [classes/:?]
+2018-01-05 13:30:38,796 main INFO  librarymanagement.LibraryManagement (LibraryManagement.java:55) - Application Exception
+com.project.librarymanagement.exception.ApplicationException: You entered the command incorrectly or unknown command.
+	at com.project.librarymanagement.utils.Converter.convertCommandToMap(Converter.java:28) ~[classes/:?]
+	at com.project.librarymanagement.utils.ConsoleIn.readCommand(ConsoleIn.java:46) ~[classes/:?]
+	at com.project.librarymanagement.LibraryManagement.run(LibraryManagement.java:50) [classes/:?]
+	at com.project.librarymanagement.LibraryManagement.main(LibraryManagement.java:41) [classes/:?]
+2018-01-05 13:30:40,390 main INFO  librarymanagement.LibraryManagement (LibraryManagement.java:55) - Application Exception
+com.project.librarymanagement.exception.ApplicationException: You entered the command incorrectly or unknown command.
+Maybe you wanted to enter "add" command.
+Syntax: add {author} {"book_name"}
+	at com.project.librarymanagement.utils.CommandParser.parseAddCommand(CommandParser.java:92) ~[classes/:?]
+	at com.project.librarymanagement.utils.CommandParser.parseCommand(CommandParser.java:53) ~[classes/:?]
+	at com.project.librarymanagement.utils.Converter.convertCommandToMap(Converter.java:30) ~[classes/:?]
+	at com.project.librarymanagement.utils.ConsoleIn.readCommand(ConsoleIn.java:46) ~[classes/:?]
+	at com.project.librarymanagement.LibraryManagement.run(LibraryManagement.java:50) [classes/:?]
+	at com.project.librarymanagement.LibraryManagement.main(LibraryManagement.java:41) [classes/:?]
+2018-01-05 13:30:46,520 main DEBUG repository.BookRepository (BookRepository.java:101) - SELECT * FROM books
+2018-01-05 13:30:46,531 main INFO  database.MySqlConnector (MySqlConnector.java:52) - Driver loaded.
+2018-01-05 13:30:46,790 main INFO  database.MySqlConnector (MySqlConnector.java:54) - Database connected.
+2018-01-05 13:30:46,790 main INFO  database.MySqlConnector (MySqlConnector.java:69) - Statement created successful.
+2018-01-05 13:30:46,794 main INFO  database.MySqlConnector (MySqlConnector.java:84) - Statement closed.
+2018-01-05 13:30:46,795 main INFO  database.MySqlConnector (MySqlConnector.java:90) - Connection closed.
+2018-01-05 13:30:53,956 main DEBUG repository.BookRepository (BookRepository.java:101) - SELECT * FROM books WHERE name = 'a'
+2018-01-05 13:30:53,957 main INFO  database.MySqlConnector (MySqlConnector.java:52) - Driver loaded.
+2018-01-05 13:30:53,988 main INFO  database.MySqlConnector (MySqlConnector.java:54) - Database connected.
+2018-01-05 13:30:53,989 main INFO  database.MySqlConnector (MySqlConnector.java:69) - Statement created successful.
+2018-01-05 13:30:53,990 main INFO  database.MySqlConnector (MySqlConnector.java:84) - Statement closed.
+2018-01-05 13:30:53,991 main INFO  database.MySqlConnector (MySqlConnector.java:90) - Connection closed.
+2018-01-05 13:31:03,745 main DEBUG repository.BookRepository (BookRepository.java:101) - SELECT * FROM books WHERE name = 'Harry Potter'
+2018-01-05 13:31:03,746 main INFO  database.MySqlConnector (MySqlConnector.java:52) - Driver loaded.
+2018-01-05 13:31:03,778 main INFO  database.MySqlConnector (MySqlConnector.java:54) - Database connected.
+2018-01-05 13:31:03,779 main INFO  database.MySqlConnector (MySqlConnector.java:69) - Statement created successful.
+2018-01-05 13:31:03,780 main INFO  database.MySqlConnector (MySqlConnector.java:84) - Statement closed.
+2018-01-05 13:31:03,780 main INFO  database.MySqlConnector (MySqlConnector.java:90) - Connection closed.
+2018-01-05 13:31:07,363 main DEBUG repository.BookRepository (BookRepository.java:72) - DELETE FROM books WHERE name = 'Harry Potter' AND author = 'A'
+2018-01-05 13:31:07,365 main INFO  database.MySqlConnector (MySqlConnector.java:52) - Driver loaded.
+2018-01-05 13:31:07,397 main INFO  database.MySqlConnector (MySqlConnector.java:54) - Database connected.
+2018-01-05 13:31:07,398 main INFO  database.MySqlConnector (MySqlConnector.java:69) - Statement created successful.
+2018-01-05 13:31:07,501 main INFO  database.MySqlConnector (MySqlConnector.java:84) - Statement closed.
+2018-01-05 13:31:07,502 main INFO  database.MySqlConnector (MySqlConnector.java:90) - Connection closed.
+2018-01-05 13:31:07,503 main INFO  receiver.Operation (Operation.java:132) - book A "Harry Potter" was removed.
+2018-01-05 13:31:12,770 main INFO  librarymanagement.LibraryManagement (LibraryManagement.java:55) - Application Exception
+com.project.librarymanagement.exception.ApplicationException: You entered the command incorrectly or unknown command.
+	at com.project.librarymanagement.utils.Converter.convertCommandToMap(Converter.java:28) ~[classes/:?]
+	at com.project.librarymanagement.utils.ConsoleIn.readCommand(ConsoleIn.java:46) ~[classes/:?]
+	at com.project.librarymanagement.LibraryManagement.run(LibraryManagement.java:50) [classes/:?]
+	at com.project.librarymanagement.LibraryManagement.main(LibraryManagement.java:41) [classes/:?]
+2018-01-05 13:31:18,265 main DEBUG repository.BookRepository (BookRepository.java:101) - SELECT * FROM books
+2018-01-05 13:31:18,266 main INFO  database.MySqlConnector (MySqlConnector.java:52) - Driver loaded.
+2018-01-05 13:31:18,286 main INFO  database.MySqlConnector (MySqlConnector.java:54) - Database connected.
+2018-01-05 13:31:18,286 main INFO  database.MySqlConnector (MySqlConnector.java:69) - Statement created successful.
+2018-01-05 13:31:18,288 main INFO  database.MySqlConnector (MySqlConnector.java:84) - Statement closed.
+2018-01-05 13:31:18,288 main INFO  database.MySqlConnector (MySqlConnector.java:90) - Connection closed.
+2018-01-05 13:31:30,135 main DEBUG repository.BookRepository (BookRepository.java:101) - SELECT * FROM books WHERE name = 'Harry' AND author = 'A'
+2018-01-05 13:31:30,135 main INFO  database.MySqlConnector (MySqlConnector.java:52) - Driver loaded.
+2018-01-05 13:31:30,151 main INFO  database.MySqlConnector (MySqlConnector.java:54) - Database connected.
+2018-01-05 13:31:30,151 main INFO  database.MySqlConnector (MySqlConnector.java:69) - Statement created successful.
+2018-01-05 13:31:30,154 main INFO  database.MySqlConnector (MySqlConnector.java:84) - Statement closed.
+2018-01-05 13:31:30,154 main INFO  database.MySqlConnector (MySqlConnector.java:90) - Connection closed.
+2018-01-05 13:31:30,155 main DEBUG repository.BookRepository (BookRepository.java:57) - INSERT INTO books(name, author) VALUES('Harry', 'A')
+2018-01-05 13:31:30,155 main INFO  database.MySqlConnector (MySqlConnector.java:52) - Driver loaded.
+2018-01-05 13:31:30,167 main INFO  database.MySqlConnector (MySqlConnector.java:54) - Database connected.
+2018-01-05 13:31:30,167 main INFO  database.MySqlConnector (MySqlConnector.java:69) - Statement created successful.
+2018-01-05 13:31:30,210 main INFO  database.MySqlConnector (MySqlConnector.java:84) - Statement closed.
+2018-01-05 13:31:30,210 main INFO  database.MySqlConnector (MySqlConnector.java:90) - Connection closed.
+2018-01-05 13:31:30,211 main INFO  receiver.Operation (Operation.java:80) - The book A "Harry" was added
+2018-01-05 13:31:42,485 main DEBUG repository.BookRepository (BookRepository.java:101) - SELECT * FROM books WHERE name = 'Harry"'
+2018-01-05 13:31:42,485 main INFO  database.MySqlConnector (MySqlConnector.java:52) - Driver loaded.
+2018-01-05 13:31:42,511 main INFO  database.MySqlConnector (MySqlConnector.java:54) - Database connected.
+2018-01-05 13:31:42,512 main INFO  database.MySqlConnector (MySqlConnector.java:69) - Statement created successful.
+2018-01-05 13:31:42,513 main INFO  database.MySqlConnector (MySqlConnector.java:84) - Statement closed.
+2018-01-05 13:31:42,513 main INFO  database.MySqlConnector (MySqlConnector.java:90) - Connection closed.
+2018-01-05 13:32:03,204 main INFO  librarymanagement.LibraryManagement (LibraryManagement.java:55) - Application Exception
+com.project.librarymanagement.exception.ApplicationException: You entered the command incorrectly or unknown command.
+Maybe you wanted to enter "edit " command.
+Syntax: edit {book_name}
+	at com.project.librarymanagement.utils.CommandParser.parseCommandWithOneArg(CommandParser.java:114) ~[classes/:?]
+	at com.project.librarymanagement.utils.CommandParser.parseCommand(CommandParser.java:57) ~[classes/:?]
+	at com.project.librarymanagement.utils.Converter.convertCommandToMap(Converter.java:30) ~[classes/:?]
+	at com.project.librarymanagement.utils.ConsoleIn.readCommand(ConsoleIn.java:46) ~[classes/:?]
+	at com.project.librarymanagement.LibraryManagement.run(LibraryManagement.java:50) [classes/:?]
+	at com.project.librarymanagement.LibraryManagement.main(LibraryManagement.java:41) [classes/:?]
+2018-01-05 13:32:17,802 main DEBUG repository.BookRepository (BookRepository.java:101) - SELECT * FROM books WHERE name = 'Harry'
+2018-01-05 13:32:17,803 main INFO  database.MySqlConnector (MySqlConnector.java:52) - Driver loaded.
+2018-01-05 13:32:17,830 main INFO  database.MySqlConnector (MySqlConnector.java:54) - Database connected.
+2018-01-05 13:32:17,830 main INFO  database.MySqlConnector (MySqlConnector.java:69) - Statement created successful.
+2018-01-05 13:32:17,833 main INFO  database.MySqlConnector (MySqlConnector.java:84) - Statement closed.
+2018-01-05 13:32:17,833 main INFO  database.MySqlConnector (MySqlConnector.java:90) - Connection closed.
+2018-01-05 13:32:32,727 main DEBUG repository.BookRepository (BookRepository.java:88) - UPDATE books SET name = 'Harry Potter' WHERE name = 'Harry' AND author = 'A'
+2018-01-05 13:32:32,727 main INFO  database.MySqlConnector (MySqlConnector.java:52) - Driver loaded.
+2018-01-05 13:32:32,754 main INFO  database.MySqlConnector (MySqlConnector.java:54) - Database connected.
+2018-01-05 13:32:32,755 main INFO  database.MySqlConnector (MySqlConnector.java:69) - Statement created successful.
+2018-01-05 13:32:32,792 main INFO  database.MySqlConnector (MySqlConnector.java:84) - Statement closed.
+2018-01-05 13:32:32,793 main INFO  database.MySqlConnector (MySqlConnector.java:90) - Connection closed.
+2018-01-05 13:32:32,793 main INFO  receiver.Operation (Operation.java:151) - book A "Harry" was renamed.
+2018-01-05 13:32:41,748 main INFO  librarymanagement.LibraryManagement (LibraryManagement.java:55) - Application Exception
+com.project.librarymanagement.exception.ApplicationException: You entered the command incorrectly or unknown command.
+	at com.project.librarymanagement.utils.Converter.convertCommandToMap(Converter.java:28) ~[classes/:?]
+	at com.project.librarymanagement.utils.ConsoleIn.readCommand(ConsoleIn.java:46) ~[classes/:?]
+	at com.project.librarymanagement.LibraryManagement.run(LibraryManagement.java:50) [classes/:?]
+	at com.project.librarymanagement.LibraryManagement.main(LibraryManagement.java:41) [classes/:?]
+2018-01-05 14:09:14,840 main INFO  service.InitialContext (InitialContext.java:18) - Looking up and creating a new BooksService object
+2018-01-05 14:09:24,926 main INFO  librarymanagement.LibraryManagement (LibraryManagement.java:55) - Application Exception
+com.project.librarymanagement.exception.ApplicationException: You entered the command incorrectly or unknown command.
+Maybe you wanted to enter "greet", "help", "exit" or "all books".
+Syntax: greet, help, exit, all books - without arguments and quotes!
+	at com.project.librarymanagement.utils.CommandParser.parseCommandsWithoutArgs(CommandParser.java:76) ~[classes/:?]
+	at com.project.librarymanagement.utils.CommandParser.parseCommand(CommandParser.java:59) ~[classes/:?]
+	at com.project.librarymanagement.utils.Converter.convertCommandToMap(Converter.java:30) ~[classes/:?]
+	at com.project.librarymanagement.utils.ConsoleIn.readCommand(ConsoleIn.java:46) ~[classes/:?]
+	at com.project.librarymanagement.LibraryManagement.run(LibraryManagement.java:50) [classes/:?]
+	at com.project.librarymanagement.LibraryManagement.main(LibraryManagement.java:41) [classes/:?]
+2018-01-05 14:09:28,762 main DEBUG repository.BookRepository (BookRepository.java:101) - SELECT * FROM books
+2018-01-05 14:09:28,788 main INFO  database.MySqlConnector (MySqlConnector.java:52) - Driver loaded.
+2018-01-05 14:09:29,047 main INFO  database.MySqlConnector (MySqlConnector.java:54) - Database connected.
+2018-01-05 14:09:29,047 main INFO  database.MySqlConnector (MySqlConnector.java:69) - Statement created successful.
+2018-01-05 14:09:29,050 main INFO  database.MySqlConnector (MySqlConnector.java:84) - Statement closed.
+2018-01-05 14:09:29,051 main INFO  database.MySqlConnector (MySqlConnector.java:90) - Connection closed.
+2018-01-05 14:09:41,117 main DEBUG repository.BookRepository (BookRepository.java:101) - SELECT * FROM books WHERE name = 'Harry Potter'
+2018-01-05 14:09:41,118 main INFO  database.MySqlConnector (MySqlConnector.java:52) - Driver loaded.
+2018-01-05 14:09:41,148 main INFO  database.MySqlConnector (MySqlConnector.java:54) - Database connected.
+2018-01-05 14:09:41,149 main INFO  database.MySqlConnector (MySqlConnector.java:69) - Statement created successful.
+2018-01-05 14:09:41,151 main INFO  database.MySqlConnector (MySqlConnector.java:84) - Statement closed.
+2018-01-05 14:09:41,152 main INFO  database.MySqlConnector (MySqlConnector.java:90) - Connection closed.
+2018-01-05 14:09:50,128 main DEBUG repository.BookRepository (BookRepository.java:72) - DELETE FROM books WHERE name = 'Harry Potter' AND author = 'A'
+2018-01-05 14:09:50,129 main INFO  database.MySqlConnector (MySqlConnector.java:52) - Driver loaded.
+2018-01-05 14:09:50,170 main INFO  database.MySqlConnector (MySqlConnector.java:54) - Database connected.
+2018-01-05 14:09:50,170 main INFO  database.MySqlConnector (MySqlConnector.java:69) - Statement created successful.
+2018-01-05 14:09:50,215 main INFO  database.MySqlConnector (MySqlConnector.java:84) - Statement closed.
+2018-01-05 14:09:50,215 main INFO  database.MySqlConnector (MySqlConnector.java:90) - Connection closed.
+2018-01-05 14:09:50,215 main INFO  receiver.Operation (Operation.java:133) - book A "Harry Potter" was removed.
+2018-01-05 14:10:02,388 main DEBUG repository.BookRepository (BookRepository.java:101) - SELECT * FROM books
+2018-01-05 14:10:02,388 main INFO  database.MySqlConnector (MySqlConnector.java:52) - Driver loaded.
+2018-01-05 14:10:02,409 main INFO  database.MySqlConnector (MySqlConnector.java:54) - Database connected.
+2018-01-05 14:10:02,409 main INFO  database.MySqlConnector (MySqlConnector.java:69) - Statement created successful.
+2018-01-05 14:10:02,410 main INFO  database.MySqlConnector (MySqlConnector.java:84) - Statement closed.
+2018-01-05 14:10:02,410 main INFO  database.MySqlConnector (MySqlConnector.java:90) - Connection closed.

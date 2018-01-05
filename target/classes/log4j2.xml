@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+  <Appenders>
+    <File name="FileLogger" fileName="log/LibraryManagement.log" append="true">
+      <PatternLayout pattern="%d %t %-5p %c{2} (%F:%L) - %m%n"/>
+    </File>
+  </Appenders>
+  <Loggers>
+    <!-- Root Logger -->
+    <Root level="all">
+      <AppenderRef ref="FileLogger"/>
+    </Root>
+  </Loggers>
+</Configuration>
